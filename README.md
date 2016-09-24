@@ -8,7 +8,8 @@ To work on the website locally, follow these steps:
 
 1. Clone this repository and change to the directory you copied it to:
 
-        git clone https://github.com/WWMuenster/wwmuenster.github.io.git
+        git clone https://github.com/WWMuenster/wwmuenster.github.io.git wwms-static
+        cd wwms-static
 
 2. Install development dependencies:
 
