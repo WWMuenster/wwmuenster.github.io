@@ -19,7 +19,7 @@ To work on the website locally, follow these steps:
 
         npm start
 
-4. Launch your browser and head to http://localhost:3000 to see the local site and start developing.
+4. Launch your browser and head to [http://localhost:3000/](http://localhost:3000/) to see the local site and start developing.
 
 5. If you have problems with the default port, start the webserver providing a custom port:
 
