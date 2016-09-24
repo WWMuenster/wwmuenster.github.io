@@ -23,3 +23,7 @@ To work on the website locally, follow these steps:
 5. If you have problems with the default port, start the webserver providing a custom port:
 
         npm start --wwms-static:port=4567
+
+## Contributing
+
+If you want to contribute, send a pull request and/or talk to any of the current contributors face to face at the next meetup.
