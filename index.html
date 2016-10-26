@@ -12,10 +12,14 @@
 </head>
 <body>
 <div class="wrapper">
-    <header class="body-header">
-        <h1 class="body-title">Webworker Münster</h1>
-    </header>
-    <main class="body-main">
+    <div class="wrapper-content">
+        <header class="body-header">
+            <h1 class="body-title">Webworker Münster</h1>
+        </header>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="wrapper-content">
         <section class="intro">
             <p>Bei <strong>Webworker Münster</strong> treffen sich monatlich ProgrammiererInnen, DesignerInnen,
                 Online-RedakteurInnen und andere Webinteressierte um sich in einer lockeren Runde über technische,
@@ -27,125 +31,155 @@
                                                                                           target="_blank">Wunderkammer</a>,
                 Bahnhofstraße 45, 48143 Münster.</p>
         </section>
+    </div>
+</div>
+<div class="wrapper wrapper--red">
+    <div class="wrapper-content">
         <section class="upcoming">
-            <h2 class="upcoming-title">Nächste Veranstaltung: 28.11.2016, 20 Uhr</h2>
-            <div class="call">Du möchtest ein Thema vorstellen? Melde dich auf unserer <a href="#mailingliste">Mailingliste</a>.
+            <span class="upcoming-label">Nächstes Treffen:</span>
+            <h2 class="upcoming-date">28.11.2016, 20 Uhr</h2>
+            <div class="upcoming-call">Du möchtest ein Thema vorstellen?<br>Melde dich auf unserer <a href="#mailingliste">Mailingliste</a>.
             </div>
         </section>
-        <section id="past-events" class="past-events">
-            <h2>Vergangene Veranstaltungen</h2>
-            <ul>
-                <li id="event8" class="past-event">
-                    <h2 class="talkttitle">Nächste Veranstaltung: 24.10.2016, 20 Uhr</h2>
-                    <article class="talk">
-                        <h4 class="talk-title">ownCloud &amp; Nextcloud</h4>
-                        <span class="talk-author">Holger Angenent</span>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">CSS-Architektur, die funktioniert: BEM &amp; ITCSS</h4>
-                        <span class="talk-author">Marc Löhe</span>
-                        <a class="talk-presentation" href="http://www.webworker-muenster.de/slides-css-architecture/"
-                           target="_blank">Präsentation</a>
-                    </article>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="wrapper-content">
+        <section id="past-events" class="pastEvents">
+            <h2>Vergangene Treffen</h2>
+            <ul class="pastEvents-list">
+                <li id="event8" class="pastEvent">
+                    <h3 class="pastEvent-date">24.10.2016</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h4 class="talk-title">ownCloud &amp; Nextcloud</h4>
+                            <span class="talk-author">Holger Angenent</span>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">CSS-Architektur, die funktioniert: BEM &amp; ITCSS</h4>
+                            <span class="talk-author">Marc Löhe</span>
+                            <a class="talk-reference" href="http://www.webworker-muenster.de/slides-css-architecture/"
+                               target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event7" class="past-event">
-                    <h3>25.04.2016</h3>
-                    <article class="talk">
-                        <h4 class="talk-title">Neos CMS</h4>
-                        <span class="talk-author">Tobias Daur</span>
-                    </article>
+                <li id="event7" class="pastEvent">
+                    <h3 class="pastEvent-date">25.04.2016</h3>
+                    <div class="pastEvent-talks">
+                        <article class="pastEvent-talk talk">
+                            <h4 class="talk-title">Neos CMS</h4>
+                            <span class="talk-author">Tobias Daur</span>
+                        </article>
+                    </div>
                 </li>
-                <li id="event6" class="past-event">
-                    <h3>22.02.2016</h3>
-                    <article class="talk"
-                             title="Welches sind die ersten Schritte in einem bestehenden Projekt, um mithilfe von Clean Code die Software-­Qualität zu steigern? Die Hauptthemen sind „Code Standard“, „Code Konventionen“, „Code Refactoring“ und natürlich „Clean Code“.">
-                        <h4 class="talk-title">Clean Code</h4>
-                        <span class="talk-author">Roland Golla</span>
-                        <a class="talk-presentation" href="http://presentations.entwicklungshilfe.nrw/cleancode.html"
-                           target="_blank">Präsentation</a>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">Oh My Zsh</h4>
-                        <span class="talk-author">Roland Golla</span>
-                        <a class="talk-presentation" href="http://presentations.entwicklungshilfe.nrw/oh-my-zsh.html"
-                           target="_blank">Präsentation</a>
-                    </article>
+                <li id="event6" class="pastEvent">
+                    <h3 class="pastEvent-date">22.02.2016</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="pastEvent-talk talk"
+                                 title="Welches sind die ersten Schritte in einem bestehenden Projekt, um mithilfe von Clean Code die Software-­Qualität zu steigern? Die Hauptthemen sind „Code Standard“, „Code Konventionen“, „Code Refactoring“ und natürlich „Clean Code“.">
+                            <h4 class="talk-title">Clean Code</h4>
+                            <span class="talk-author">Roland Golla</span>
+                            <a class="talk-reference" href="http://presentations.entwicklungshilfe.nrw/cleancode.html"
+                               target="_blank">Präsentation</a>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">Oh My Zsh</h4>
+                            <span class="talk-author">Roland Golla</span>
+                            <a class="talk-reference" href="http://presentations.entwicklungshilfe.nrw/oh-my-zsh.html"
+                               target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event5" class="past-event">
-                    <h3 class="past-event-title">25.01.2016</h3>
-                    <article class="talk">
-                        <h4 class="talk-title">ownCloud &amp; sciebo</h4>
-                        <span class="talk-author">Holger Angenent</span>
-                        <a class="talk-presentation"
-                           href="/assets/slides/20160125_holger-angenent_sciebo-scaling_owncloud.pdf" target="_blank">Präsentation</a>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">webEdition</h4>
-                        <span class="talk-author">Ludger Müller</span>
-                        <a class="talk-presentation" href="/assets/slides/20160125_ludger-mueller_webEdition.pdf"
-                           target="_blank">Präsentation</a>
-                    </article>
+                <li id="event5" class="pastEvent">
+                    <h3 class="pastEvent-date">25.01.2016</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h4 class="talk-title">ownCloud &amp; sciebo</h4>
+                            <span class="talk-author">Holger Angenent</span>
+                            <a class="talk-reference"
+                               href="/assets/slides/20160125_holger-angenent_sciebo-scaling_owncloud.pdf" target="_blank">Präsentation</a>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">webEdition</h4>
+                            <span class="talk-author">Ludger Müller</span>
+                            <a class="talk-reference" href="/assets/slides/20160125_ludger-mueller_webEdition.pdf"
+                               target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event4" class="past-event">
-                    <h3 class="past-event-title">23.11.2015</h3>
-                    <article class="talk">
-                        <h4 class="talk-title">Hands On: Sketch</h4>
-                        <span class="talk-author">Carina Bach</span>
-                        <a class="talk-presentation" href="/assets/slides/20151123_carina-bach_sketch.pdf"
-                           target="_blank">Präsentation</a>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">Hands On: ProcessWire</h4>
-                        <span class="talk-author">Marc Löhe</span>
-                        <a class="talk-presentation" href="http://bfncs.github.io/wwms-processwire/" target="_blank">Präsentation</a>
-                    </article>
+                <li id="event4" class="pastEvent">
+                    <h3 class="pastEvent-date">23.11.2015</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h4 class="talk-title">Hands On: Sketch</h4>
+                            <span class="talk-author">Carina Bach</span>
+                            <a class="talk-reference" href="/assets/slides/20151123_carina-bach_sketch.pdf"
+                               target="_blank">Präsentation</a>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">Hands On: ProcessWire</h4>
+                            <span class="talk-author">Marc Löhe</span>
+                            <a class="talk-reference" href="http://bfncs.github.io/wwms-processwire/" target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event3" class="past-event">
-                    <h3 class="past-event-title">26.10.2015</h3>
-                    <article class="talk">
-                        <h4 class="talk-title">Die Wahl der Unternehmensform</h4>
-                        <span class="talk-author">Stefan Kraneburg</span>
-                        <a class="talk-presentation"
-                           href="/assets/slides/20151027_stefan-kraneburg_unternehmensformen.pdf" target="_blank">Präsentation</a>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">Responsive Bilder im HTML: picture-Tag &amp; srcset-Attribut</h4>
-                        <span class="talk-author">Martin Niggemann</span>
-                        <a class="talk-presentation" href="http://www.weltrettung.org/wwms/responsive-images/"
-                           target="_blank">Präsentation</a>
-                    </article>
+                <li id="event3" class="pastEvent">
+                    <h3 class="pastEvent-date">26.10.2015</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h4 class="talk-title">Die Wahl der Unternehmensform</h4>
+                            <span class="talk-author">Stefan Kraneburg</span>
+                            <a class="talk-reference"
+                               href="/assets/slides/20151027_stefan-kraneburg_unternehmensformen.pdf" target="_blank">Präsentation</a>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">Responsive Bilder im HTML: picture-Tag &amp; srcset-Attribut</h4>
+                            <span class="talk-author">Martin Niggemann</span>
+                            <a class="talk-reference" href="http://www.weltrettung.org/wwms/responsive-images/"
+                               target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event2" class="past-event">
-                    <h3 class="past-event-title">21.09.2015</h3>
-                    <article class="talk">
-                        <h3 class="talk-title">Bash Basics: Search &amp; Find</h3>
-                        <span class="talk-author">Tobias Daur</span>
-                        <a class="talk-presentation"
-                           href="https://lands-cloud.com/lands/public.php?service=files&t=31e45aba92b3e1ba6daf1dadd64665b0"
-                           target="_blank">Präsentation</a>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">Hands On: Dokumentation &amp; Screenshots mit Shutter</h4>
-                        <span class="talk-author">Martin Bless</span>
-                        <a class="talk-presentation" href="http://shutter-project.org/" target="_blank">Shutter
-                            Project</a>
-                    </article>
+                <li id="event2" class="pastEvent">
+                    <h3 class="pastEvent-date">21.09.2015</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h3 class="talk-title">Bash Basics: Search &amp; Find</h3>
+                            <span class="talk-author">Tobias Daur</span>
+                            <a class="talk-reference"
+                               href="https://lands-cloud.com/lands/public.php?service=files&t=31e45aba92b3e1ba6daf1dadd64665b0"
+                               target="_blank">Präsentation</a>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">Hands On: Dokumentation &amp; Screenshots mit Shutter</h4>
+                            <span class="talk-author">Martin Bless</span>
+                            <a class="talk-reference" href="http://shutter-project.org/" target="_blank">Shutter
+                                Project</a>
+                        </li>
+                    </ul>
                 </li>
-                <li id="event1" class="past-event">
-                    <h3 class="past-event-title">17.08.2015</h3>
-                    <article class="talk">
-                        <h4 class="talk-title">Is Web Design Dead?</h4>
-                        <span class="talk-author">Ludger Müller</span>
-                    </article>
-                    <article class="talk">
-                        <h4 class="talk-title">Clientseitige Abhängigkeiten mit Javascript verwalten</h4>
-                        <span class="talk-author">Marc Löhe</span>
-                        <a class="talk-presentation" href="http://bfncs.github.io/fedeps/"
-                           target="_blank">Präsentation</a>
-                    </article>
+                <li id="event1" class="pastEvent">
+                    <h3 class="pastEvent-date">17.08.2015</h3>
+                    <ul class="pastEvent-talks">
+                        <li class="talk">
+                            <h4 class="talk-title">Is Web Design Dead?</h4>
+                            <span class="talk-author">Ludger Müller</span>
+                        </li>
+                        <li class="talk">
+                            <h4 class="talk-title">Clientseitige Abhängigkeiten mit Javascript verwalten</h4>
+                            <span class="talk-author">Marc Löhe</span>
+                            <a class="talk-reference" href="http://bfncs.github.io/fedeps/"
+                               target="_blank">Präsentation</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </section>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="wrapper-content">
         <section id="mailingliste" class="mailinglist">
             <h2>Mailingliste</h2>
             <p>Es gibt eine Mailingliste für die Vernetzung aller Teilnehmer. Hier können Themenvorschläge und -wünsche
@@ -157,6 +191,10 @@
                 abmelden genügt eine leere Mail an <a href="mailto:wwms-unsubscribe@webworker-muenster.de">wwms-unsubscribe@webworker-muenster.de</a>.
             </p>
         </section>
+    </div>
+</div>
+<div class="wrapper wrapper--grey">
+    <div class="wrapper-content">
         <section class="contact">
             <h2>Kontakt &amp; Impressum</h2>
             <p>E-Mail: <a href="mailto:info@webworker-muenster.de">info@webworker-muenster.de</a><br>Twitter: <a
@@ -165,13 +203,16 @@
             <p>Ludger Müller<br>Bahnhofstr. 45<br>48143 Münster<br>Tel: 0251 / 70366951<br>E-Mail: <a
                     href="mailto:lum@wunderkammer.ms">lum@wunderkammer.ms</a></p>
         </section>
+    </div>
+</div>
+<div class="wrapper wrapper--grey">
+    <div class="wrapper-content">
         <section class="acknowledgment">
             <h2>Dank</h2>
             <p>Vielen Dank an die <a href="http://wunderkammer.ms/" target="_blank">Wunderkammer</a> für die
                 Bereitstellung der Räume und der technischen Ausstattung.</p>
         </section>
-    </main>
-    <footer class="body-footer"></footer>
+    </div>
 </div>
 </body>
 </html>

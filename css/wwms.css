@@ -462,7 +462,6 @@ html {
 
 body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     color: #373a3c;
     background-color: #fff;
@@ -476,6 +475,7 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: .5rem;
+    font-weight: 400;
 }
 
 p {
@@ -499,7 +499,22 @@ a:active {
 /* Layout
    ========================================================================== */
 
-.wrapper {
+.wrapper--red {
+    color: #fff;
+    background: #d9304f;
+}
+
+.wrapper--grey {
+    background: #f2f2f2;
+}
+
+.wrapper-content {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2em 4em;
+}
+
+.wrap {
     max-width: 740px;
     padding: 2em 4em;
 }
@@ -514,47 +529,53 @@ a:active {
     background: url("../img/wwms.svg") scroll no-repeat center center;
 }
 
-.body-main section {
-    padding: 2em 0 1em;
-    border-top: 3px dashed #eee;
-}
-
-.body-main section:first-child {
-    border-top: none;
+.intro,
+.upcoming {
+    font-size: 1.125rem;
 }
 
 .talk {
+    overflow: hidden;
     margin: 0 0 .8em;
 }
 
 .talk-title {
+    display: inline;
     margin-bottom: 0;
-    font-size: 1rem;
-}
-
-.talk-author {
-    display: block;
-    font-style: italic;
-}
-
-.upcoming-warning {
-    color: #d9304f;
     font-weight: 700;
 }
 
-.call {
-    margin: 2em 0 1.4em;
+.talk-author,
+.talk-reference {
+    display: block;
+    font-size: .8889em;
+}
+
+.talk-author {
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.upcoming-call {
+    margin: 2em -1em .4em;
     padding: 1.4em 1em;
-    background: #f2d6a2;
+    color: #373a3c;
+    background: #f2f2f2;
 }
 
-.past-event {
-    margin: 1em 0;
-    padding: 2em 0 .1em;
-}
-
-.past-events ul {
+.pastEvents-list {
     margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pastEvent {
+    margin: .8em 0;
+    padding: .8em 0 .1em;
+}
+
+.pastEvent-talks {
+    margin: 0 0 1.4em;
     padding: 0;
     list-style: none;
 }
