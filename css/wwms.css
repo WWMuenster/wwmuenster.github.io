@@ -556,6 +556,10 @@ a:active {
     white-space: nowrap;
 }
 
+.talk-author a {
+    color: inherit;
+}
+
 .upcoming-call {
     margin: 2em -1em .4em;
     padding: 1.4em 1em;
