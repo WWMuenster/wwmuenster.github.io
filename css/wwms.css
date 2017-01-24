@@ -560,6 +560,10 @@ a:active {
     color: inherit;
 }
 
+.upcoming a {
+    color: #fff;
+}
+
 .upcoming-call {
     margin: 2em -1em .4em;
     padding: 1.4em 1em;
